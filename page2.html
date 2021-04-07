@@ -109,41 +109,48 @@
                 <div class="container bloc-lg">
                     <div>
                         <div class="col-sm-6">
-                            <form id="form_1">
+                            <form id="form_1" aria-label="formulaire">
                                 <!-- novalidate
                                 success-msg="Your message has been sent."
                                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!" > -->
 
                                 <div class="form-group">
-                                    <label> Nom </label>
+                                    <label aria-label="nom"> Nom </label>
                                     <input
                                         id="name"
                                         class="form-control"
                                         required
+                                        aria-label="zone de texte"
                                     />
                                 </div>
                                 <div class="form-group">
-                                    <label> Adresse email </label>
+                                    <label aria-label="mail">
+                                        Adresse email
+                                    </label>
                                     <input
                                         id="email"
                                         class="form-control"
                                         type="email"
                                         required
+                                        aria-label="zone de texte"
                                     />
                                 </div>
                                 <div class="form-group">
-                                    <label>
+                                    <label
+                                        aria-label="comment avez vous connu l'agence"
+                                    >
                                         Comment nous avez-vous connu ?
                                     </label>
                                     <input
                                         class="form-control"
                                         type="email"
                                         required
+                                        aria-label="zone de texte"
                                         id="input_504"
                                     />
                                 </div>
                                 <div class="form-group">
-                                    <label>
+                                    <label aria-label="brief du projet">
                                         Brief de votre projet (Ajoutez autant de
                                         détails que nécessaire)<br /> </label
                                     ><textarea
@@ -152,11 +159,13 @@
                                         rows="4"
                                         cols="50"
                                         required
+                                        aria-label="zone de texte"
                                     ></textarea>
                                 </div>
                                 <button
                                     class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
                                     type="submit"
+                                    aria-label="envoyer"
                                 >
                                     Envoyer
                                 </button>
