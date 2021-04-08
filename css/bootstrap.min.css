@@ -1985,6 +1985,8 @@ pre code {
     margin-left: auto
 }
 
+
+
 @media (min-width:768px) {
     .container {
         width: 750px
@@ -4844,7 +4846,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 10px 15px;
 }
 
 .nav>li>a:focus,

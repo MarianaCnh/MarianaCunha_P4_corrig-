@@ -63,6 +63,10 @@ a:hover {
     padding: 20px 50px;
 }
 
+.vieavotrepage {
+    position: relative;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -540,7 +544,7 @@ button {
 a[data-lightbox] {
     position: relative;
     display: block;
-    text-align: center;
+    text-align: -webkit-center;
 }
 
 a[data-lightbox]:hover::before {
