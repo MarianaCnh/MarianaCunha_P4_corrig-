@@ -12,6 +12,11 @@ body {
     height: 93px;
 }
 
+.logoalign {
+    display: flex;
+    justify-content: space-around;
+}
+
 .logochouette {
     height: 40px;
 }
@@ -546,6 +551,7 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: -webkit-center;
+    text-align: -moz-center;
 }
 
 a[data-lightbox]:hover::before {
